@@ -1,7 +1,7 @@
 {
   "name": "@cesarbr/angular-dragndrop-input",
-  "version": "0.0.1",
-  "description": "Drag & Drop directive for uploading files",
+  "version": "0.0.2",
+  "description": "Angular drag & drop directive for uploading files",
   "contributors": [
     "Gabriel Silva <gabriel.santana@cesar.org.br>",
     "Rodrigo Perazzo <rodrigo.perazzo@cesar.org.br>"
@@ -15,9 +15,7 @@
     "dragndrop"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CESARBR/angular-dragndrop-input/issues"
-  },
+  "bugs": "https://github.com/CESARBR/angular-dragndrop-input/issues",
   "homepage": "https://github.com/CESARBR/angular-dragndrop-input#readme",
   "scripts": {
     "ng": "ng",
