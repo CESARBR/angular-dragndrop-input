@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgDragndropInputComponent } from './ng-dragndrop-input.component';
+import { FileListComponent } from './file-list.component';
 
-describe('NgDragndropInputComponent', () => {
-  let component: NgDragndropInputComponent;
-  let fixture: ComponentFixture<NgDragndropInputComponent>;
+describe('FileListComponent', () => {
+  let component: FileListComponent;
+  let fixture: ComponentFixture<FileListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgDragndropInputComponent ]
+      declarations: [ FileListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgDragndropInputComponent);
+    fixture = TestBed.createComponent(FileListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-dragndrop-input';
+  files: Array<any> = [];
+
+  public listFiles(fileList: any) {
+    this.files = fileList;
+  }
 }
